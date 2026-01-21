@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const SECRET_CODE = "1402"; // modifie si besoin
+const SECRET_CODE = "79038713";
 
 export default function CodeGate({ onSuccess }) {
   const [code, setCode] = useState("");
