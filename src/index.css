@@ -1,1 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
 @import "tailwindcss";
+
+
+.neon-text {
+  font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+  color: #b43799;
+  text-shadow: 0 0 35px #3d76d2;
+  animation: neon-flicker 2.5s infinite alternate;
+}
+
+/* Flicker réaliste */
+@keyframes neon-flicker {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.8;
+  }
+  22% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.6;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 0.95;
+  }
+}
+
+/* --- Curseur clignotant --- */
+.cursor {
+  margin-left: 4px;
+  color: #ffffff;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}

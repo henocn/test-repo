@@ -1,25 +1,28 @@
-import { useState } from 'react'
+import { useEffect, useState } from "react";
 
-function App() {
-  const [count, setCount] = useState(0)
+
+const TEXT = "Henoc Dev";
+
+export default function App() {
+  const [displayed, setDisplayed] = useState("");
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    if (index < TEXT.length) {
+      const timeout = setTimeout(() => {
+        setDisplayed((prev) => prev + TEXT[index]);
+        setIndex((i) => i + 1);
+      }, 500);
+      return () => clearTimeout(timeout);
+    }
+  }, [index]);
 
   return (
-    <>
-      <div className="text-center mt-10">
-        <h1 className="text-3xl font-bold underline text-blue-600">
-          Hello Vite + React + TailwindCSS!
-        </h1>
-        <p className="mt-4">
-          <button
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
-            onClick={() => setCount((count) => count + 1)}
-          >
-            count is: {count}
-          </button>
-        </p>
-      </div>
-    </>
-  )
+    <div className="min-h-screen flex items-center justify-center bg-slate-900">
+      <h1 className="neon-text text-9xl font-bold tracking-widest">
+        {displayed}
+        <span className="cursor">|</span>
+      </h1>
+    </div>
+  );
 }
-
-export default App
