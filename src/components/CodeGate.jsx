@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const SECRET_CODE = "1402"; // ← change-le
+const SECRET_CODE = "1402"; // modifie si besoin
 
 export default function CodeGate({ onSuccess }) {
   const [code, setCode] = useState("");
@@ -24,11 +24,18 @@ export default function CodeGate({ onSuccess }) {
         className="neon-input text-xl px-6 py-3 rounded-lg text-center"
       />
 
-      <button onClick={submit} className="neon-button px-8 py-4 text-xl">
+      <button
+        onClick={submit}
+        className="neon-button px-10 py-4 text-xl"
+      >
         Valider
       </button>
 
-      {error && <div className="broken-heart mt-10" />}
+      {error && (
+        <div className="text-6xl mt-6 animate-pulse">
+          💔
+        </div>
+      )}
     </div>
   );
 }

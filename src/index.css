@@ -2,46 +2,43 @@
 @import "tailwindcss";
 
 /* =========================
-   BOUTON NÉON
+   BOUTON & INPUT
 ========================= */
 .neon-button {
-  font-family: "Bitcount Single", system-ui;
-  color: #fff;
-  background: transparent;
+  font-family: "Bitcount Single";
+  color: white;
   border: 2px solid #ff2f92;
+  background: transparent;
   box-shadow:
-    0 0 10px #ff2f92,
-    0 0 30px #ff2f92;
+    0 0 15px #ff2f92,
+    0 0 40px #ff2f92;
   animation: neon-flicker 2s infinite alternate;
 }
 
-/* =========================
-   INPUT NÉON
-========================= */
 .neon-input {
   background: transparent;
   border: 2px solid #4fdfff;
   color: white;
   box-shadow:
-    0 0 10px #4fdfff,
-    0 0 30px #4fdfff;
+    0 0 15px #4fdfff,
+    0 0 40px #4fdfff;
   outline: none;
 }
 
 /* =========================
-   TEXTE FINAL
+   TEXTE NÉON
 ========================= */
 .neon-henoc {
   font-family: "Bitcount Single";
   color: #eb3dc5;
-  text-shadow: 0 0 40px #4883e2;
+  text-shadow: 0 0 45px #4883e2;
   animation: neon-flicker 2.5s infinite alternate;
 }
 
 .neon-dev {
   font-family: "Bitcount Single";
   color: #4fdfff;
-  text-shadow: 0 0 40px #b43799;
+  text-shadow: 0 0 45px #b43799;
   animation: neon-flicker 2s infinite alternate;
 }
 
@@ -49,12 +46,13 @@
    COEUR RESPONSIVE
 ========================= */
 .neon-heart {
-  width: clamp(30px, 5vw, 60px);
-  height: clamp(30px, 5vw, 60px);
+  width: clamp(28px, 5vw, 60px);
+  height: clamp(28px, 5vw, 60px);
   background: #ff2f92;
   position: relative;
   transform: rotate(-45deg);
   animation: heart-pulse 1.4s infinite;
+  filter: drop-shadow(0 0 20px #ff2f92);
 }
 
 .neon-heart::before,
@@ -76,17 +74,6 @@
 }
 
 /* =========================
-   COEUR BRISÉ
-========================= */
-.broken-heart {
-  width: 80px;
-  height: 80px;
-  background: linear-gradient(135deg, #ff2f92 50%, transparent 50%);
-  transform: rotate(-45deg);
-  animation: shake 0.4s infinite;
-}
-
-/* =========================
    ANIMATIONS
 ========================= */
 @keyframes neon-flicker {
@@ -99,11 +86,4 @@
   0% { transform: rotate(-45deg) scale(1); }
   50% { transform: rotate(-45deg) scale(1.2); }
   100% { transform: rotate(-45deg) scale(1); }
-}
-
-@keyframes shake {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  50% { transform: translateX(5px); }
-  100% { transform: translateX(0); }
 }
