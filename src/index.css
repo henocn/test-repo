@@ -1,35 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap");
 @import "tailwindcss";
 
+/* =========================
+   BASE
+========================= */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
-.neon-text {
+.neon-henoc {
   font-family: "Bitcount Single", system-ui;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
-  color: #b43799;
-  text-shadow: 0 0 35px #3d76d2;
+  color: #eb3dc5;
+  text-shadow:
+    0 0 45px #4883e2,
+    0 0 70px #4883e2;
+
   animation: neon-flicker 2.5s infinite alternate;
 }
 
-/* Flicker réaliste */
+.neon-dev {
+  font-family: "Bitcount Single", system-ui;
+  font-weight: 500;
+
+  color: #4fdfff;
+  text-shadow:
+    0 0 45px #b43799,
+    0 0 70px #b43799;
+
+  animation: neon-flicker 2s infinite alternate;
+}
+
+/* =========================
+   COEUR NÉON CSS (GRAND)
+========================= */
+.neon-heart {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  transform: rotate(-45deg);
+  margin: 0 30px;
+  background: #ff2f92;
+  animation: heart-pulse 1.3s infinite;
+  filter: drop-shadow(0 0 15px #c7578d);
+}
+
+.neon-heart::before,
+.neon-heart::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #ff2f92;
+  border-radius: 50%;
+}
+
+.neon-heart::before {
+  top: -25px;
+  left: 0;
+}
+
+.neon-heart::after {
+  left: 25px;
+  top: 0;
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
 @keyframes neon-flicker {
   0% {
     opacity: 1;
   }
   20% {
-    opacity: 0.8;
+    opacity: 0.85;
   }
   22% {
     opacity: 1;
   }
   25% {
-    opacity: 0.6;
+    opacity: 0.7;
   }
   30% {
     opacity: 1;
@@ -48,15 +102,23 @@
   }
 }
 
-/* --- Curseur clignotant --- */
-.cursor {
-  margin-left: 4px;
-  color: #ffffff;
-  animation: blink 1s steps(2, start) infinite;
-}
-
 @keyframes blink {
   to {
     visibility: hidden;
+  }
+}
+
+@keyframes heart-pulse {
+  0% {
+    transform: rotate(-45deg) scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: rotate(-45deg) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) scale(1);
+    opacity: 0.9;
   }
 }
