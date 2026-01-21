@@ -42,8 +42,9 @@ export default function LoveScene() {
       <Confetti
         width={size.width}
         height={size.height}
-        numberOfPieces={180}
+        numberOfPieces={80} // ↓ moins nombreux
         recycle
+        opacity={0.4}       // ↓ plus subtil
         drawShape={(ctx) => {
           ctx.font = "20px serif";
           ctx.fillText("❤️", 0, 0);

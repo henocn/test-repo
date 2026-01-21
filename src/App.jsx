@@ -1,28 +1,27 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import SurpriseButton from "./components/SurpriseButton";
 import CodeGate from "./components/CodeGate";
 import LoveScene from "./components/LoveScene";
 
 export default function App() {
   const [step, setStep] = useState("start");
-  const audioRef = useRef(null);
+  const [playMusic, setPlayMusic] = useState(false);
 
   const startExperience = () => {
-    if (audioRef.current) {
-      audioRef.current.volume = 0.4;
-      audioRef.current.play().catch(() => {});
-    }
+    setPlayMusic(true);
     setStep("code");
   };
 
   return (
     <div className="min-h-screen bg-slate-900 flex items-center justify-center overflow-hidden">
-      <audio
-        ref={audioRef}
-        src="/jmetire.mp3"
-        loop
-        preload="auto"
-      />
+      {playMusic && (
+        <iframe
+          title="background-music"
+          src="https://www.youtube.com/embed/450p7goxZqg?autoplay=1&loop=1&playlist=450p7goxZqg&controls=0&mute=0&modestbranding=1&showinfo=0"
+          allow="autoplay"
+          className="hidden"
+        />
+      )}
 
       {step === "start" && <SurpriseButton onClick={startExperience} />}
       {step === "code" && <CodeGate onSuccess={() => setStep("success")} />}
