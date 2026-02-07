@@ -1,0 +1,66 @@
+{
+  "secretCode": "79038713",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quel était ton sentiment quand tu m'as vu pour la première fois? 👀",
+      "options": [
+        { "text": "Déjà conquis(e)", "correct": true },
+        { "text": "Je ne sais plus trop", "correct": false },
+        { "text": "Juste normal", "correct": false }
+      ],
+      "message": "Merci de m'avoir regardé comme ça... ton sourire ce jour-là restera gravé dans mon cœur forever ❤️"
+    },
+    {
+      "id": 2,
+      "question": "Comment je te fais sentir? 💫",
+      "options": [
+        { "text": "Vivant(e) et libre", "correct": true },
+        { "text": "C'est compliqué", "correct": false },
+        { "text": "Normal", "correct": false }
+      ],
+      "message": "C'est ce que je veux pour toi... que tu sentes la liberté et la joie à chaque moment avec moi 🌙"
+    },
+    {
+      "id": 3,
+      "question": "Si tu devais me décrire en un mot? 🔥",
+      "options": [
+        { "text": "Intensité", "correct": true },
+        { "text": "Drôle", "correct": false },
+        { "text": "Bizarre", "correct": false }
+      ],
+      "message": "Chaque moment avec toi est une intensité... ton sourire, ton regard, ta présence allume quelque chose en moi 🔥"
+    },
+    {
+      "id": 4,
+      "question": "Quel est le truc que tu aimes le plus chez moi? 😊",
+      "options": [
+        { "text": "Je vois plein de choses", "correct": true },
+        { "text": "Honnêtement je sais pas", "correct": false },
+        { "text": "Pas grand chose", "correct": false }
+      ],
+      "message": "Et moi j'aime TOUT chez toi... la façon dont tu me regardes, comment tu ris, ta douceur, ta force... tout 💕"
+    },
+    {
+      "id": 5,
+      "question": "Verrais-tu un avenir avec moi? 🌟",
+      "options": [
+        { "text": "Absolument", "correct": true },
+        { "text": "Je ne sais pas encore", "correct": false },
+        { "text": "C'est trop tôt", "correct": false }
+      ],
+      "message": "Je te promets de construire chaque jour un avenir magnifique avec toi... rempli de petits moments magiques ✨"
+    },
+    {
+      "id": 6,
+      "question": "Ce que tu ressens pour moi en ce moment? 💗",
+      "options": [
+        { "text": "De l'amour", "correct": true },
+        { "text": "Une belle amitié", "correct": false },
+        { "text": "C'est trop pour dire", "correct": false }
+      ],
+      "message": "Et moi aussi... je suis complètement tombé(e) pour toi. Tu es ma plus belle surprise, mon amour. Je t'aime 💗"
+    }
+  ],
+  "finalMessage": "On a réussi... j'avais tous ces message à te dire, et tu as été parfaite pour moi. Merci d'exister, de m'aimer, de me choisir chaque jour... Faisons de notre histoire la plus belle histoire d'amour ✨❤️"
+}

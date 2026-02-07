@@ -74,6 +74,50 @@
 }
 
 /* =========================
+   QUESTIONS & OPTIONS
+========================= */
+.neon-question {
+  font-family: "Bitcount Single";
+  color: #ff2f92;
+  text-shadow: 0 0 30px #ff2f92, 0 0 60px #ff2f92;
+  animation: neon-flicker 2s infinite alternate;
+}
+
+.neon-option {
+  font-family: "Bitcount Single";
+  color: #4fdfff;
+  border: 2px solid #4fdfff;
+  background: rgba(79, 223, 255, 0.05);
+  box-shadow: 0 0 15px #4fdfff, 0 0 30px #4fdfff inset;
+  transition: all 0.3s ease;
+}
+
+.neon-option:hover:not(:disabled) {
+  box-shadow: 0 0 25px #4fdfff, 0 0 50px #4fdfff;
+  background: rgba(79, 223, 255, 0.15);
+}
+
+/* =========================
+   MESSAGES & FINAL
+========================= */
+.neon-message {
+  font-family: "Bitcount Single";
+  color: #ff2f92;
+  text-shadow: 0 0 30px #ff2f92;
+  letter-spacing: 0.05em;
+}
+
+.neon-final {
+  font-family: "Bitcount Single";
+  color: #ff2f92;
+  text-shadow: 0 0 40px #ff2f92, 0 0 80px #ff2f92;
+}
+
+.animate-glow {
+  animation: glow-pulse 1.5s ease-in-out infinite;
+}
+
+/* =========================
    ANIMATIONS
 ========================= */
 @keyframes neon-flicker {
@@ -86,4 +130,13 @@
   0% { transform: rotate(-45deg) scale(1); }
   50% { transform: rotate(-45deg) scale(1.2); }
   100% { transform: rotate(-45deg) scale(1); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { 
+    text-shadow: 0 0 40px #ff2f92, 0 0 80px #ff2f92;
+  }
+  50% { 
+    text-shadow: 0 0 60px #ff2f92, 0 0 120px #ff2f92;
+  }
 }
