@@ -31,9 +31,9 @@ export default function FinalScene({ finalMessage }) {
       <Confetti
         width={size.width}
         height={size.height}
-        numberOfPieces={200}
+        numberOfPieces={120}
         recycle
-        opacity={0.7}
+        opacity={0.4}
         drawShape={(ctx) => {
           const emojis = ["💗", "✨", "🌹", "💕", "🎇"];
           const emoji = emojis[Math.floor(Math.random() * emojis.length)];

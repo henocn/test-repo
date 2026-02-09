@@ -3,64 +3,64 @@
   "questions": [
     {
       "id": 1,
-      "question": "Quelle est ma passion précisement dans le domaine de l'informatique ? 👀",
+      "question": "Ma passion en informatique, c'est quoi vraiment? 👀",
       "options": [
-        { "text": "Les algorithmes et systems", "correct": true },
-        { "text": "L'intéligence artificielle et l'analyse de données", "correct": false },
-        { "text": "Le développement en général, (backend et frontend)", "correct": false }
+        { "text": "Les algorithmes et systèmes", "correct": true },
+        { "text": "L'intelligence artificielle et l'analyse de données", "correct": false },
+        { "text": "Le développement en général", "correct": false }
       ],
-      "message": "Merci de m'avoir regardé comme ça... ton sourire ce jour-là restera gravé dans mon cœur forever ❤️"
+      "message": "Le jour de ma soutenance, j'aurais vraiment voulu prendre une photo avec toi... Pour rendre ce jour deux fois plus intense ❤️"
     },
     {
       "id": 2,
-      "question": "Qui est mon artiste préféré? 💫",
+      "question": "Quel artiste j'aime bien ecouter partout 💫",
       "options": [
-        { "text": "Fally ippupa", "correct": false },
-        { "text": "Maitre GIMS", "correct": true },
-        { "text": "Normal", "correct": false }
+        { "text": "Fally Ipupa", "correct": false },
+        { "text": "Maître GIMS", "correct": true },
+        { "text": "Un autre", "correct": false }
       ],
-      "message": "C'est ce que je veux pour toi... que tu sentes la liberté et la joie à chaque moment avec moi 🌙"
+      "message": "Aucun amour n'est totalement parfait... mais je veux que le nôtre fasse exception. En tout cas qu'on fasse l'effort de vivre un truc exceptionnel, et si par hasard il y a une zone floue qu'on en parle OUVERTEMENT 🌙"
     },
     {
       "id": 3,
-      "question": "Si tu devais me décrire en un mot? 🔥",
+      "question": "En un mot, comment tu me verrais? 🔥",
       "options": [
         { "text": "Intensité", "correct": true },
         { "text": "Drôle", "correct": false },
         { "text": "Bizarre", "correct": false }
       ],
-      "message": "Chaque moment avec toi est une intensité... ton sourire, ton regard, ta présence allume quelque chose en moi 🔥"
+      "message": "Depuis le jour où tu m'as remarqué, tu me vois avec ces yeux... et si tu restes toi-même aussi, je pourrais t'aimer avec la même intensité du premier jour, encore et encore 🔥"
     },
     {
       "id": 4,
-      "question": "Quel est le truc que tu aimes le plus chez moi? 😊",
+      "question": "Ce que tu aimes le plus chez moi? 😊",
       "options": [
-        { "text": "Je vois plein de choses", "correct": true },
-        { "text": "Honnêtement je sais pas", "correct": false },
-        { "text": "Pas grand chose", "correct": false }
+        { "text": "Beaucoup de choses", "correct": true },
+        { "text": "Je ne sais pas trop", "correct": false },
+        { "text": "Pas vraiment grand-chose", "correct": false }
       ],
-      "message": "Et moi j'aime TOUT chez toi... la façon dont tu me regardes, comment tu ris, ta douceur, ta force... tout 💕"
+      "message": "Aujourd'hui on voit nos meilleurs côtés, ces papillons qui nous font rêver... mais demain, quand on découvrira aussi nos imperfections, je veux que tu saches qu'on peut se rendre meilleur ensemble. C'est ça, grandir avec quelqu'un 💕"
     },
     {
       "id": 5,
-      "question": "Verrais-tu un avenir avec moi? 🌟",
+      "question": "Vois-tu vraiment un avenir... avec moi? 🌟",
       "options": [
         { "text": "Absolument", "correct": true },
         { "text": "Je ne sais pas encore", "correct": false },
-        { "text": "C'est trop tôt", "correct": false }
+        { "text": "C'est trop tôt pour dire", "correct": false }
       ],
-      "message": "Je te promets de construire chaque jour un avenir magnifique avec toi... rempli de petits moments magiques ✨"
+      "message": "Avant toi, j'étais convaincu que mon cœur était insensible... juste un mec obsédé par le travail, sans place pour les sentiments. Et puis tu es arrivée, et j'ai découvert que j'avais un coeur pr ça aussi. ✨"
     },
     {
       "id": 6,
-      "question": "Ce que tu ressens pour moi en ce moment? 💗",
+      "question": "Ce que tu ressens vraiment pour moi? 💗",
       "options": [
         { "text": "De l'amour", "correct": true },
-        { "text": "Une belle amitié", "correct": false },
-        { "text": "C'est trop pour dire", "correct": false }
+        { "text": "Une très belle amitié", "correct": false },
+        { "text": "Je ne sais pas encore", "correct": false }
       ],
-      "message": "Et moi aussi... je suis complètement tombé(e) pour toi. Tu es ma plus belle surprise, mon amour. Je t'aime 💗"
+      "message": "Je rêve qu'on soit une équipe... qu'on traverse les bons moments en riant ensemble et qu'on n'abandonne pas quand les tempêtes arrivent. Qu'on se relève ensemble, chaque fois. C'est ça pour moi, vraiment aimer 💗"
     }
   ],
-  "finalMessage": "On a réussi... j'avais tous ces message à te dire, et tu as été parfaite pour moi. Merci d'exister, de m'aimer, de me choisir chaque jour... Faisons de notre histoire la plus belle histoire d'amour ✨❤️"
+  "finalMessage": "Esther... Je ne sais pas si tu as deviné, mais j'ai créé ce petit quiz pour te dire que je t'aime vraiment beaucoup. Je sais que les mots peuvent parfois être insuffisants pour exprimer ce qu'on ressent, alors j'ai voulu faire quelque chose d'un peu plus original pour te montrer à quel point tu comptes pour moi. J'espère que tu as aimé ce petit jeu autant que j'ai aimé le créer pour toi. Je t'aime ❤️"
 }

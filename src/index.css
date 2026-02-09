@@ -100,11 +100,16 @@
 /* =========================
    MESSAGES & FINAL
 ========================= */
+.message-card {
+  animation: card-glow 3s ease-in-out infinite;
+}
+
 .neon-message {
   font-family: "Bitcount Single";
   color: #ff2f92;
-  text-shadow: 0 0 30px #ff2f92;
+  text-shadow: 0 0 30px #ff2f92, 0 0 60px #ff2f92;
   letter-spacing: 0.05em;
+  font-weight: 500;
 }
 
 .neon-final {
@@ -138,5 +143,16 @@
   }
   50% { 
     text-shadow: 0 0 60px #ff2f92, 0 0 120px #ff2f92;
+  }
+}
+
+@keyframes card-glow {
+  0%, 100% {
+    box-shadow: 0 0 30px rgba(255, 47, 146, 0.5), 0 0 60px rgba(255, 47, 146, 0.3);
+    border-color: rgba(255, 47, 146, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 50px rgba(255, 47, 146, 0.7), 0 0 100px rgba(255, 47, 146, 0.5);
+    border-color: rgba(255, 47, 146, 0.8);
   }
 }

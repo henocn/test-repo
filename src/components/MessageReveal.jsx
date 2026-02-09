@@ -22,7 +22,7 @@ export default function MessageReveal({ message, messageIndex, onFinish }) {
       const timer = setTimeout(() => {
         setDisplayedText(displayedText + message[index]);
         setIndex(index + 1);
-      }, 50);
+      }, 30);
       return () => clearTimeout(timer);
     } else if (index === message.length && message.length > 0) {
       setTimeout(() => {
@@ -41,9 +41,9 @@ export default function MessageReveal({ message, messageIndex, onFinish }) {
         <Confetti
           width={size.width}
           height={size.height}
-          numberOfPieces={150}
+          numberOfPieces={80}
           recycle
-          opacity={0.6}
+          opacity={0.35}
           drawShape={(ctx) => {
             ctx.font = "28px serif";
             ctx.fillText("💌", 0, 0);
@@ -56,8 +56,8 @@ export default function MessageReveal({ message, messageIndex, onFinish }) {
           Message {messageIndex}/6
         </div>
 
-        <div className="relative w-full max-w-2xl h-64 sm:h-80 bg-gradient-to-br from-pink-900/20 to-blue-900/20 rounded-2xl border-2 border-pink-500/30 p-8 flex items-center justify-center shadow-2xl">
-          <p className="neon-message text-2xl sm:text-3xl md:text-4xl text-center leading-relaxed">
+        <div className="message-card relative w-full max-w-4xl min-h-96 sm:min-h-[450px] md:min-h-[500px] bg-gradient-to-br from-pink-900/40 via-purple-900/30 to-blue-900/40 rounded-3xl border-2 border-pink-500/50 p-10 sm:p-12 md:p-16 flex items-center justify-center shadow-2xl backdrop-blur-sm">
+          <p className="neon-message text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center leading-relaxed">
             {displayedText}
           </p>
         </div>
