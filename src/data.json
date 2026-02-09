@@ -1,22 +1,22 @@
 {
-  "secretCode": "79038713",
+  "secretCode": "7903",
   "questions": [
     {
       "id": 1,
-      "question": "Quel était ton sentiment quand tu m'as vu pour la première fois? 👀",
+      "question": "Quelle est ma passion précisement dans le domaine de l'informatique ? 👀",
       "options": [
-        { "text": "Déjà conquis(e)", "correct": true },
-        { "text": "Je ne sais plus trop", "correct": false },
-        { "text": "Juste normal", "correct": false }
+        { "text": "Les algorithmes et systems", "correct": true },
+        { "text": "L'intéligence artificielle et l'analyse de données", "correct": false },
+        { "text": "Le développement en général, (backend et frontend)", "correct": false }
       ],
       "message": "Merci de m'avoir regardé comme ça... ton sourire ce jour-là restera gravé dans mon cœur forever ❤️"
     },
     {
       "id": 2,
-      "question": "Comment je te fais sentir? 💫",
+      "question": "Qui est mon artiste préféré? 💫",
       "options": [
-        { "text": "Vivant(e) et libre", "correct": true },
-        { "text": "C'est compliqué", "correct": false },
+        { "text": "Fally ippupa", "correct": false },
+        { "text": "Maitre GIMS", "correct": true },
         { "text": "Normal", "correct": false }
       ],
       "message": "C'est ce que je veux pour toi... que tu sentes la liberté et la joie à chaque moment avec moi 🌙"
