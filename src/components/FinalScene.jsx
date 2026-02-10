@@ -50,7 +50,7 @@ export default function FinalScene({ finalMessage }) {
               FIN 💗
             </h1>
 
-            <p className="neon-message text-2xl sm:text-3xl md:text-4xl leading-relaxed">
+            <p className="neon-message text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-relaxed">
               {displayedText}
             </p>
           </div>

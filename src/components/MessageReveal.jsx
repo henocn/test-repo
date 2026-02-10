@@ -57,7 +57,7 @@ export default function MessageReveal({ message, messageIndex, onFinish }) {
         </div>
 
         <div className="message-card relative w-full max-w-4xl min-h-96 sm:min-h-[450px] md:min-h-[500px] bg-gradient-to-br from-pink-900/40 via-purple-900/30 to-blue-900/40 rounded-3xl border-2 border-pink-500/50 p-10 sm:p-12 md:p-16 flex items-center justify-center shadow-2xl backdrop-blur-sm">
-          <p className="neon-message text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center leading-relaxed">
+          <p className="neon-message text-xl sm:text-xl md:text-3xl lg:text-4xl text-center leading-relaxed">
             {displayedText}
           </p>
         </div>
