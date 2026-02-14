@@ -22,7 +22,7 @@ export default function AccessGate({ secretCode, onSuccess }) {
   return (
     <div className="flex flex-col items-center justify-center gap-8 px-6 py-12 min-h-screen">
       <h1 className="neon-question text-4xl sm:text-5xl md:text-6xl text-center">
-        Déverrouille mon cœur 🔐
+        Qu'es ce qui prouve que c'est toi ??? 🔐
       </h1>
 
       <div className="max-w-md w-full flex flex-col gap-6">
