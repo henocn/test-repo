@@ -7,7 +7,7 @@
       "options": [
         { "text": "Les algorithmes et systèmes", "correct": true },
         { "text": "Cyber sécurité et réseaux", "correct": false },
-        { "text": "Programmation bas niveau", "correct": false }
+        { "text": "Bracages de banques", "correct": false }
       ],
       "message": "Le jour de ma soutenance, j'aurais vraiment voulu prendre une photo avec toi... Pour rendre ce jour deux fois plus innoubliable ❤️"
     },
@@ -17,7 +17,7 @@
       "options": [
         { "text": "Fally Ipupa", "correct": false },
         { "text": "Maître GIMS", "correct": true },
-        { "text": "Un autre", "correct": false }
+        { "text": "Dj Arafat", "correct": false }
       ],
       "message": "La relation avec 0 problemes ça n'existe pas... mais je pense que tant que l'amour, la confiance et le respect existent on peut froller la perfection.🌙"
     },
@@ -29,7 +29,7 @@
         { "text": "Non", "correct": false },
         { "text": "Je ne sais pas", "correct": false }
       ],
-      "message": "Je pense t'avoir bien dit comment je suis... Si ça ne vaut pas la peine, j'abandonne vite (c'est un défaut, je le sais) donc si j'ai fait l'effort d'approcher c'est que pour moi ça vallait vraiment la peine💕"
+      "message": "Tu es unique et spéciale pour moi, et je crois en nous et en ce que nous pouvons construire ensemble. 💕"
     },
     {
       "id": 4,
@@ -37,7 +37,7 @@
       "options": [
         { "text": "Beaucoup de choses", "correct": true },
         { "text": "Je ne sais pas trop", "correct": false },
-        { "text": "Pas vraiment grand-chose", "correct": false }
+        { "text": "Rien du tout", "correct": false }
       ],
       "message": "Moi ce que je vois de beau en toi, je le visualise dans plusieurs années. Mais ce que je vois aujourd'hui j'aimerais bien le voir en toi dans 10ans, puisque j'aime cela et je le chéri. Aimerais-tu bien rester la même personne ?💕"
     },
@@ -49,7 +49,7 @@
         { "text": "Je ne sais pas encore", "correct": false },
         { "text": "C'est trop tôt pour dire", "correct": false }
       ],
-      "message": "Avant toi, j'étais convaincu que mon cœur était insensible... juste un mec obsédé par le travail, sans place pour les sentiments. Et puis tu es arrivée, et j'ai découvert que j'avais un coeur pr ça aussi. ✨"
+      "message": "Avant toi, j'étais convaincu que mon cœur était insensible... juste un mec obsédé par le travail, sans place pour les sentiments. Et puis tu es arrivée, et Et desormais Esther est ma faiblesse. ✨"
     },
     {
       "id": 6,
@@ -59,8 +59,8 @@
         { "text": "Une très belle amitié", "correct": false },
         { "text": "Je ne sais pas encore", "correct": false }
       ],
-      "message": "Je rêve qu'on soit une équipe... qu'on traverse les bons moments en riant ensemble et qu'on n'abandonne pas quand les tempêtes arrivent. Qu'on se relève ensemble, chaque fois. C'est ça pour moi, vraiment aimer 💗"
+      "message": "Je rêve qu'on soit une équipe... qu'on souri ensemble et s'il le faut qu'on pleure ensemble aussi 😁 Qu'on se relève ensemble, chaque fois. 💗"
     }
   ],
-  "finalMessage": "Esther... Je ne sais pas si tu as deviné, mais j'ai créé ce petit quiz pour te dire que je t'aime vraiment beaucoup. Je sais que les mots peuvent parfois être insuffisants pour exprimer ce qu'on ressent, alors j'ai voulu faire quelque chose d'un peu plus original pour te montrer à quel point tu comptes pour moi. J'espère que tu as aimé ce petit jeu autant que j'ai aimé le créer pour toi. Je t'aime ❤️"
+  "finalMessage": "Esther..., ma future femme, la chouchou de mes enfants... Ma reine, je t'aime bisous 😘❤️"
 }
